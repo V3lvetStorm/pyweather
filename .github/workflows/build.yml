@@ -1,5 +1,8 @@
 name: Build and Release pyweather
 
+permissions:
+  contents: write
+
 on: [push]
 
 jobs:
