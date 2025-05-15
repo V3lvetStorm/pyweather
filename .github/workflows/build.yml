@@ -1,16 +1,6 @@
 name: Build and Release pyweather
 
-on:
-  # 1) Run on any push to the main branch
-  push:
-    branches:
-      - main
-
-  # 2) Run when you create a tag like v1.2.3
-  # (useful for auto‑releases)
-  push:
-    tags:
-      - v[0-9]+.[0-9]+.[0-9]+*
+on: [push]
 
 jobs:
   build:
