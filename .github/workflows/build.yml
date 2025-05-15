@@ -10,7 +10,7 @@ on:
   # (useful for auto‑releases)
   push:
     tags:
-      - 'v*'
+      - v[0-9]+.[0-9]+.[0-9]+*
 
 jobs:
   build:
